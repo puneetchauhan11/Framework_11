@@ -26,6 +26,7 @@ public class HomePage {
 	
 	public void clickonNavigationbar()
 	{
+		// test comment
 	   act = new Actions(driver);
 	   act.moveToElement(NavigationBar).perform();
 	   
